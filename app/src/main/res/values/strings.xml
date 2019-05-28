@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="q_ants">Ants can live up to 25 years.</string>
+    <string name="q_info_ants">Most ants live from a couple of weeks to a few years but some queen ants can live up to 25 years.</string>
+    <string name="q_oxford">Oxford University is older than the Aztec Empire.</string>
+    <string name="q_info_oxford">According to Oxford University itself, “there is no clear date of foundation, but teaching existed at Oxford in some form in 1096 and developed rapidly from 1167. The Aztec Empire was founded around 300 years later.</string>
+    <string name="q_soccer">There are 22 players on the field per team during a soccer game.</string>
+    <string name="q_info_soccer">It\'s 11 players per team.</string>
+    <string name="q_rushmore">Washington, Jefferson, Lincoln, and Grant are the four presidents\' heads sculpted into Mount Rushmore.</string>
+    <string name="q_info_rushmore">Mount Rushmore features 60-foot (18 m) sculptures of the heads of four United States presidents: George Washington (1732–1799), Thomas Jefferson (1743–1826), Theodore Roosevelt (1858–1919), and Abraham Lincoln(1809–1865).</string>
+    <string name="q_hydra">In Greek mythology, a Hydra had nine heads.</string>
+    <string name="q_info_hydra">In Greek mythology the Lernaean Hydra was a gigantic, nine-headed water-serpent.</string>
+    <string name="q_submarine">The world\'s first nuclear-powered submarine was called the Nautilus.</string>
+    <string name="q_info_submarine">Launched in 1954 the USS Nautilus was the world\'s first operational nuclear-powered submarine.</string>
+    <string name="q_morocco">The flag of Morocco has a red moon on a green background.</string>
+    <string name="q_info_morocco">The flag of Morocco has a green star on a red background.</string>
+    <string name="q_haydn">Haydn wrote more than 100 symphonies.</string>
+    <string name="q_info_haydn">Classical composer Franz Joseph Haydn wrote 106 symphonies.</string>
+    <string name="q_inferno">An "inferno" is a unit of heat equal to 1 billion K (about 1 billion °C).</string>
+    <string name="q_info_inferno">The unit Inferno is used in astrophysics to describe the temperature inside a star.</string>
+    <string name="q_russian">The Russian parliament building in Moscow is called the White House.</string>
+    <string name="q_info_russian">The House of the Government of the Russian Federation is called "The White House".</string>
+    <string name="correct_answer">That\'s correct!</string>
+    <string name="wrong_answer">That\'s incorrect!</string>
+
+
+</resources>

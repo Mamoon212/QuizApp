@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/noun_think_1585918" />
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:text="Holla" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/button_true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/primary"
+            android:text="True"
+            android:textColor="@android:color/white"
+            />
+
+
+        <Button
+            android:id="@+id/button_false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/primary"
+            android:text="False"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:background="@color/primary"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/info_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/primary"
+        android:padding="8dp"
+        android:visibility="gone"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="24dp">
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_dark"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:text="TextView" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
